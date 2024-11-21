@@ -1,0 +1,84 @@
+/* Define CSS Variables for Color Scheme */
+:root {
+    --primary-color: #005FA3; 
+    --secondary-color: #628395;
+    --background-color: #0a99ff;
+    --text-color: #2b3b3b;
+    --overlay-background: rgba(0, 0, 0, 0.5);
+    --text-decoration: none; /* Remove underlines */
+  
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: "Playfair Display", serif; 
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin: 0;
+  }
+  
+  p {
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0 0 1em;
+  }
+  
+   
+  
+  /* Limit Page Width */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px var(--overlay-background);
+  }
+  
+  .hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    background-color: var(--overlay-background);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .hero article img {
+    float: right;
+    margin-left: 15px;
+  }
+  
+  .hero article p {
+    margin: 0;
+  }
+  
+ 
