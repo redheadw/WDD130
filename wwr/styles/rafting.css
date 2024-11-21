@@ -52,21 +52,16 @@
   }
   
   .hero article {
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
-    right: 10%;
-    background-color: var(--overlay-background);
-    color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: left;
+    background-color: lightgray;
+    min-height: 100px;
   }
-  
+
   .hero article img {
-    float: right;
-    margin-left: 15px;
+    display: block;
+    width: 100%;
+    height: auto; 
   }
+
   
   .hero article p {
     margin: 0;
