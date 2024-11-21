@@ -5,9 +5,7 @@
     --background-color: #0a99ff;
     --text-color: #2b3b3b;
     --overlay-background: rgba(0, 0, 0, 0.5);
-    --text-decoration: none; /* Remove underlines */
-  
-  }
+    }
   
   /* Global Styles */
   body {
@@ -28,15 +26,7 @@
     line-height: 1.6;
     margin: 0 0 1em;
   }
-  
    
-  
-  /* Limit Page Width */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
   
   /* Hero Section */
   .hero {
@@ -48,7 +38,7 @@
   .hero img {
     display: block;
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
   }
   
   .hero h1 {
@@ -70,6 +60,7 @@
     color: #fff;
     padding: 20px;
     border-radius: 5px;
+    text-align: left;
   }
   
   .hero article img {
@@ -79,6 +70,15 @@
   
   .hero article p {
     margin: 0;
+  }
+
+  .social-media a {
+    text-decoration: none;
+  }
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 15px;
   }
   
  
