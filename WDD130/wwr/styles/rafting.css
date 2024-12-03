@@ -1,0 +1,139 @@
+/* Define CSS Variables for Color Scheme */
+:root {
+    --primary-color: #005FA3; 
+    --secondary-color: #628395;
+    --background-color: #0a99ff;
+    --text-color: #2b3b3b;
+    --overlay-background: rgba(0, 0, 0, 0.5);
+    }
+  
+  /* Global Styles */
+  body {
+    font-family: "Playfair Display", serif; 
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px;
+    background-color: #628395;
+    color: #0a99ff;
+  }
+
+  #logo {
+    max-height: 80px;
+  }
+
+  header h1 {
+    text-align: center;
+    color: #fff;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0a99ff;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+
+  }
+      
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto; 
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px var(--overlay-background);
+  }
+  
+ .history {
+  padding: 20px;
+  background-color: #628395;
+ }
+ .adventure-gallary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  justify-items: center;
+ }
+
+ .adventure-gallary figure {
+  text-align: center;
+ }
+
+ .adventure-gallary img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-start-end-radius: 5px;
+ }
+
+ .adventure-gallary figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: var(--primary-color);
+ }
+
+  footer {
+    background-color: #628395;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+  }
+
+  footer .sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  footer .sociallinks img {
+    width: 24px;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
