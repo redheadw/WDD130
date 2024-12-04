@@ -25,13 +25,14 @@
     color: #0a99ff;
   }
 
-  #logo {
+  header #logo {
     max-height: 80px;
   }
 
   header h1 {
     text-align: center;
-    color: #fff;
+    font-size: 2rem;
+    margin: 0;
   }
 
   nav ul {
@@ -80,30 +81,55 @@
   
  .history {
   padding: 20px;
+  background-color: #fff;
+  border-left: 5px solid #628395;
+ }
+
+ .history h2 {
+  font-size: 1.5rem;
+  color: #005FA3;
+ }
+
+ .history p {
+  font-size: 1rem;
+  color: #005FA3;
+ }
+
+ .adventure-gallery h2 {
+  display: block;
+  text-align: center;
+  margin-bottom: 0 auto 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2b3b3b;
+ }
+
+ 
+ .adventure-gallery {
+  display: grid !important;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  padding: 20px;
   background-color: #628395;
  }
- .adventure-gallary {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 15px;
-  justify-items: center;
- }
 
- .adventure-gallary figure {
+ .adventure-gallery figure {
   text-align: center;
+  margin: 0;
  }
 
- .adventure-gallary img {
-  width: 100%;
+ .adventure-gallery img {
+  width: 100;
   max-width: 150px;
   height: auto;
-  border-start-end-radius: 5px;
+  border-radius: 5px;
  }
 
- .adventure-gallary figcaption {
+ .adventure-gallery figcaption {
   margin-top: 8px;
   font-style: italic;
-  color: var(--primary-color);
+  font-size: 0.9rem;
+  color: #2b3b3b;
  }
 
   footer {
@@ -111,6 +137,9 @@
     color: #fff;
     text-align: center;
     padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   footer .sociallinks {
