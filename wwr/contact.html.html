@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Contact Rafting Adventure for inquiries, reservations, or Feedback. Your adventure begins here!" />                
+    <meta name="author" content="Gwyn Wright">
+    <title>Rafting Adventure</title> 
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/crossedoars.jpeg" alt="Rafting" id="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="wwr/about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>Rafting Adventure</h1>
+            
+        </div>
+        <section>
+            <h2>Contact Information</h2>
+            <address>
+                <p>410 SW a St Ste 2</p>
+                <p>Bentonville, AR 72712-2465</p>
+                <p>Phone: (417) 501-5455</p>
+                <p>Email: contact@raftingadventures.com</p>
+            </address>    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210.4820129777368!2d-94.22409072471493!3d36.42172578894371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c91b39890b1bab%3A0x3ccac84d74a655!2s3803%20NW%20Wishing%20Spring%20Rd%2C%20Bentonville%2C%20AR%2072712!5e0!3m2!1sen!2sus!4v1733630662301!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="employee">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/TobyDoe.jpg" alt="Toby Doe, Manager">
+                <figcaption>Toby Doe - Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/JohnSmith.jpg" alt="John Smith, Guide">
+                <figcaption>John Smith - Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/JaneGood.jpg" alt="Jane Good, Instructor">
+                <figcaption>Jane Good</figcaption>
+            </figure>
+           
+                     
+        </section>
+        <section>
+            <h2>Get in Touch</h2>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"required>
+
+                <p>Purpose of Messsage:</p>
+                <input type="radio" id="general" name="purpose" value="General inquiries">
+                <label for="general">General inquiries</label>
+
+                <input type="radio" id="reservations" name="purpose" value="Reservation Question">
+                <label for="reservations">Reservation Question</label>
+
+                <input type="radio" id="website" name="purpose" value="Website Suggestion's">
+                <label for="website">Website Suggestion</label>
+
+                <label for="message">Messsage:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>                
+    <footer>
+        <p>©2024 Rafting Adventure Gwyn Wright🌄 </p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+        <p><a href="https://app.moqups.com/8L1pZBjOtlIedZG1acwFh9v8dOLkvosp/view/page/ad64222d5>"View Contact Us Wirefram></Wirefram></a></p>
+    </footer>
+</body>
+</html>
