@@ -120,7 +120,7 @@
  }
 
  .adventure-gallery img {
-  width: 100;
+  width: 100%;
   max-width: 150px;
   height: auto;
   border-radius: 5px;
