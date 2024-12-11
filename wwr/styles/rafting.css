@@ -60,13 +60,25 @@
     position: relative;
     text-align: center;
     overflow: hidden;
-    padding: 20px;
   }
   
-  .hero img {
-    display: block;
+  .hero-image {
     width: 100%;
-    height: auto; 
+    height: auto;
+    display: block;
+  }
+  .nested-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+  }
+
+  .nested-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
   }
   
   .hero h1 {
