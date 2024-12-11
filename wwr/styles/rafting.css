@@ -1,9 +1,9 @@
 /* Define CSS Variables for Color Scheme */
 :root {
-    --primary-color: #005FA3; 
+    --primary-color: #002ba3; 
     --secondary-color: #628395;
-    --background-color: #0a99ff;
-    --text-color: #2b3b3b;
+    --background-color: #ffff;
+    --text-color: #2b3b3b4a;
     
     }
   
